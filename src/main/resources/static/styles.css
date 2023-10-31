@@ -1,14 +1,30 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 10px;
 }
 
 h1 {
-    text-align: center;
+    color: white;
 }
 
-h2 {
-    margin-top: 20px;
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.factura {
+    background-color: #FFF;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
 }
 
 ul {
@@ -18,4 +34,8 @@ ul {
 
 li {
     margin-bottom: 10px;
+}
+
+#total {
+    font-weight: bold;
 }
