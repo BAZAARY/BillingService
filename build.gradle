@@ -22,6 +22,8 @@ dependencies {
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testImplementation 'org.springframework:spring-webflux'
 	testImplementation 'org.springframework.graphql:spring-graphql-test'
+	implementation 'com.apollographql.apollo:apollo-client:2.7.0'
+implementation 'com.apollographql.apollo:apollo-runtime:2.7.0'
 }
 
 tasks.named('test') {
