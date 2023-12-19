@@ -1,0 +1,12 @@
+query GetInvoice($invoiceId: ID!) {
+  invoice(id: $invoiceId) {
+    numeroFactura
+    fechaCompra
+    productos {
+      id
+      nombre
+      precio
+    }
+    total
+  }
+}
